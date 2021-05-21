@@ -1,0 +1,216 @@
+body{
+  padding-left: 7%;
+  padding-right: 7%;
+  font-size: 0.8em;
+  font-family: 'Noto Sans SC', sans-serif;
+}
+.backpic{
+  position: relative;
+  margin-bottom: -150px;
+}
+.backpic h1{
+  position: relative;
+  font-family: 'Fjalla One', sans-serif;
+  margin-top: 30px;
+  margin-right: 700px;
+  padding-right: 40%;
+  font-size: 7em;
+  color: white;
+  background: #FFD700	;
+  box-shadow: 0 8px #B22222	;
+  background-size: 100%;
+}
+
+.backpic h2
+{
+  position: relative;
+  font-family: 'Noto Serif', serif;
+  margin-top: 350px;
+  margin-right: 600px;
+  padding-right: 8%;
+  font-size: 1.3em;
+  color: white;
+  background: #cc1b1b;
+  box-shadow: 0 8px #cc1b1b;
+}
+/*.backpic h3 .Edited{
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-right: 650px;
+  color: white;*/
+}
+.backpic h3 .caption{
+  position: relative;
+  margin-top: -60px;
+  margin-left: 730px;
+  text-align: right;
+  font-size: 0.7em;
+  color: white;
+  width: 15%
+  
+}
+header {
+  padding: 80px 0 150px;
+}
+
+.about, .contact {
+  padding: 150px 0;
+}
+header {
+  /*background: url("https://science.sciencemag.org/content/sci/364/6436/141.1/F1.large.jpg");
+  background-size: cover;
+  text-align: center;
+  .imageChange {
+
+  -webkit-animation: imageChange 10s infinite linear; /* Chrome, Safari, Opera */
+	animation: imageChange 10s infinite linear;
+
+  
+  background: url("https://png.pngtree.com/thumb_back/fh260/background/20190903/pngtree-colorful-bright-smoke-texture-background-image_312909.jpg");
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  
+ 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes imageChange {
+	0% {background: url("https://wallpaperaccess.com/full/454206.jpg")} /*cyan*/
+	33% {background: url("https://images.unsplash.com/photo-1526161955674-92d767589833?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29sb3JmdWwlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80")} /*green*/
+	66% {background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkUNL9XVuJoaOz2OrFIVEpW_qtebzNUtdYhWaxf_Ih19HcIVFJ1feVux0aJ6tzerCNeKE&usqp=CAU")} /*yellow*/
+  100% {background: url("https://orgs.law.harvard.edu/alianza/files/2015/09/colorful-background-1.jpg")} /*cyan*/
+}
+
+/* Standard syntax */
+@keyframes imageChange {
+	0% {background: url("https://orgs.law.harvard.edu/alianza/files/2015/09/colorful-background-1.jpg")} /*cyan*/
+	33% {background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkUNL9XVuJoaOz2OrFIVEpW_qtebzNUtdYhWaxf_Ih19HcIVFJ1feVux0aJ6tzerCNeKE&usqp=CAU")} /*green*/
+	66% {background: url("https://images.unsplash.com/photo-1526161955674-92d767589833?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29sb3JmdWwlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80")} /*yellow*/
+  100% {background: url("https://wallpaperaccess.com/full/454206.jpg")} /*cyan*/
+}
+
+}
+
+.descrip {
+  background-size: 100%;
+  padding-top: 10px;
+padding-right: 32px;
+padding-bottom: 8px;
+padding-left: 32px;
+  text-align: justify;
+  background-color: #FFD700;
+}
+
+.descrip h1{
+  font-family: 'Open Sans', sans-serif;
+  color: #cc1b1b;
+  font-size: 1.2em;
+}
+.descrip h2{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.7em;
+}
+.descrip .firstgraf::first-letter {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 4em;
+  float: left;
+  margin-right: 0.2px;
+  margin-bottom: 5px;
+  margin-top: 9px;
+  padding: 10px;
+  line-height: .4;
+}
+.column{
+  border-right: 2.3px solid;
+  border-color: #CDCDCD;
+  margin-bottom: 30px;
+   border-collapse: separate;
+  border-spacing: 3cm 2em;
+}
+.column {
+  float: left;
+  width: 22%;
+  margin-right: 3px;
+  margin-left: 2px;
+padding-left: 10px; 
+  padding-right: 11px;
+}
+
+.column h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #cc1b1b;
+  font-size: 1.2em;
+}
+
+.column h2{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.4em;
+}
+
+.columnlast {
+  float: left;
+  width: 22%;
+  margin-right: 3px;
+  margin-left: 2px;
+padding-left: 10px; 
+  padding-right: 2px;
+}
+
+.columnlast h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #cc1b1b;
+  font-size: 1.2em;
+}
+
+.columnlast h2{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.4em;
+}
+
+.row{
+  padding-top: 40px;
+  position: relative;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*buttons css*/
+.button {
+  width: 170px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button-5 {
+  width: 200px;
+  border-radius: 5px;
+  background-color: #F4F200;
+  background-image: #F4F200;
+  background-image: -moz-linear-gradient(top, #fff 0%, #F4F200 100%); 
+  background-image: -webkit-linear-gradient(top, #fff 0%,#F4F200 100%); 
+  background-image: linear-gradient(to bottom, #fff 0%,#F4F200 100%); 
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.button-5:hover {
+  background-position: -200%;
+  transition: background 300ms ease-in-out;
+}
